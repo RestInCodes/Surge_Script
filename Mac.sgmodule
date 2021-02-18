@@ -9,4 +9,4 @@ nf_rating_season.js = type=http-response,pattern=^https?://ios\.prod\.ftl\.netfl
 
 
 [MITM]
-hostname = ios.prod.ftl.netflix.com
+hostname = %APPEND% ios.prod.ftl.netflix.com
