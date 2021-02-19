@@ -18,7 +18,7 @@ hostname = ap?.bilibili.com
 */
 
 const Group = $persistentStore.read('BiliArea_Policy') || 'Bilibili'; //Your blibli policy group name.
-const CN = $persistentStore.read('BiliArea_CN') || 'Domestic'; //Your China sub-policy name.
+const CN = $persistentStore.read('BiliArea_CN') || 'Direct'; //Your China sub-policy name.
 const TW = $persistentStore.read('BiliArea_TW') || 'AmyTelecom'; //Your Taiwan sub-policy name.
 const HK = $persistentStore.read('BiliArea_HK') || 'AmyTelecom'; //Your HongKong sub-policy name.
 
