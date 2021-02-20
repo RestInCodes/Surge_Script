@@ -1,5 +1,5 @@
-#!name=Self-use
-#!desc=ios自用
+#!name=ios自用
+#!desc=知乎去广告、youTube去广告、netflix评分、微信去广告、微信屏蔽链接跳转、淘宝比价、京东比价
 
 [Rule]
 # 知乎广告拦截
