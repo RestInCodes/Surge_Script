@@ -22,6 +22,7 @@ const CN = $persistentStore.read('BiliArea_CN') || '🌐Direct'; //Your China su
 const TW = $persistentStore.read('BiliArea_TW') || '🇨🇳 台湾-Amy'; //Your Taiwan sub-policy name.
 const HK = $persistentStore.read('BiliArea_HK') || '🇭🇰 香港-Amy'; //Your HongKong sub-policy name.
 
+$notification.post(obj, ``, `hello world`);
 var obj = JSON.parse($response.body),
 	obj = (obj.result || obj.data || {}).title || '';
 const current = $surge.selectGroupDetails().decisions[Group] || 'Policy error ⚠️'
