@@ -25,7 +25,9 @@ const HK = $persistentStore.read('BiliArea_HK') || '🇭🇰 香港-Amy'; //Your
 
 var obj = JSON.parse($response.body),
 	obj = (obj.result || obj.data || {}).title || '';
+
 $notification.post(obj, ``, `hello world`);
+
 const current = $surge.selectGroupDetails().decisions[Group] || 'Policy error ⚠️'
 const str = (() => {
 	if (obj.match(/\u50c5[\u4e00-\u9fa5]+\u6e2f/)) {
