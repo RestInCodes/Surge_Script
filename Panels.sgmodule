@@ -6,7 +6,7 @@ net-info-panel=title="网络状态",content="请刷新",style=info,script-name=n
 NetflixSelect = script-name=NetflixSelect, update-interval=3600
 
 [Script]
-
+#显示 Surge 网络信息面板
 net-info-panel=script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js,type=generic
 #netflix策略组控制
 #必须更改的字段 netflixGroup 填写你Netflix策略组名称
