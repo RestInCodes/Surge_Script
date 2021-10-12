@@ -6,4 +6,4 @@ Sub_info = script-name=Sub_info
 
 
 [Script]
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=(https://sub.store/download/AmyTelecom)&reset_day=17&title=AmyInfo
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=https%3A%2F%2Fsub.store%2Fdownload%2FAmyTelecom&reset_day=17&title=AmyInfo
