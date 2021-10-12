@@ -2,9 +2,7 @@
 #!desc=信息面板
 
 [Panel]
-Sub_info = script-name=Sub_info
 net-info-panel=title="网络状态",content="请刷新",style=info,script-name=net-info-panel,update-interval=1
 
 [Script]
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=https%3A%2F%2Fsub.store%2Fdownload%2FAmyTelecom&reset_day=17&title=AmyInfo
 net-info-panel=script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js,type=generic
