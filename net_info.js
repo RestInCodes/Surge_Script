@@ -45,7 +45,7 @@ const v4IP = v4.primaryAddress;
        content:
           `IP：${ip} \n`+ 
           (wifi.ssid ? `路由器地址：${router}\n` : "")+
-          `节点: rootName\n`+
+          `节点: ${rootName}\n`+
           `外部-IP：${externalIP}\n`+
 	  `国家地区: ${jsonData.country} - ${jsonData.city}\n`+
           `运营商: ${jsonData.isp}\n` +
