@@ -1,5 +1,5 @@
 #!name= 媒体解锁检测
-#!desc= 媒体检索检测
+#!desc= Netflix、YouTube、Disney+
 [Panel]
 ＃媒体解锁检测
 stream-all = script-name=stream-all, title="媒体解锁检测", content="刷新面板", update-interval=1
