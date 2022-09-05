@@ -2,6 +2,11 @@
  * Surge 网络信息面板
  * @author: Peng-YM
  */
+/**
+ 强行拼凑两位大佬代码，目前能用
+ 网络信息：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js
+ 节点信息检测：https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js
+*/
 const $ = API("NetInfoPanel", true);
 const $http = HTTP();
 
