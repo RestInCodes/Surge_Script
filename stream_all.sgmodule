@@ -2,7 +2,7 @@
 #!desc= 媒体检索检测
 [Panel]
 ＃媒体解锁检测
-stream-all = script-name=stream-all, title="媒体解锁检测", content="刷新面板", update-interval=-1
+stream-all = script-name=stream-all, title="媒体解锁检测", content="刷新面板", update-interval=1
 [Script]
 #媒体解锁检测
 stream-all = type=generic,timeout=15,script-path=https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream-all.js
